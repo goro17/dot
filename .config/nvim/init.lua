@@ -734,6 +734,8 @@ require('lazy').setup({
           filetypes = { 'html', 'css', 'javascriptreact', 'typescriptreact' },
         },
 
+        zls = {},
+
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
