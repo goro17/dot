@@ -97,6 +97,7 @@ vim.pack.add({
 	'https://github.com/NMAC427/guess-indent.nvim',
 	'https://github.com/lukas-reineke/indent-blankline.nvim',
 	'https://github.com/lewis6991/gitsigns.nvim',
+	'https://github.com/windwp/nvim-autopairs',
 	{ src = 'https://github.com/saghen/blink.cmp', version = vim.version.range('1.x') }, -- pinning so rust binary dependency automatically downloads
 })
 
@@ -379,3 +380,7 @@ require('gitsigns').setup {
 		map({ 'o', 'x' }, 'ih', gitsigns.select_hunk)
 	end
 }
+
+
+-- Autopairs
+require("nvim-autopairs").setup({})
